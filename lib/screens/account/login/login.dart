@@ -43,7 +43,6 @@ class Login extends StatelessWidget {
                 ),
                 SizedBox(
                   height: MediaQuery.of(context).size.height * 0.15,
-                  wi
                 ),
                 reusableTextieldwithouticon("Email*", false,
                     controller.loginusername, TextInputType.name),
